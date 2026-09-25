@@ -36,7 +36,7 @@ import fleet_intelligence_pipeline as fip  # the pipeline script from earlier, u
 
 st.set_page_config(page_title="Fleet Intelligence & Analytics", layout="wide")
 
-st.title("⚡🏍️ Electric Vehicle Fleet Intelligence Platform")
+st.title("Electric Vehicle Fleet Intelligence Platform")
 st.caption(
     "Upload your fleet's raw 5-minute telematics stream (CSV or XLSX) and get "
     "cleaned data, rider archetypes, and a trained dormancy/breakdown-risk model -- "
