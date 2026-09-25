@@ -36,7 +36,7 @@ import fleet_intelligence_pipeline as fip  # the pipeline script from earlier, u
 
 st.set_page_config(page_title="Fleet Intelligence & Analytics", layout="wide")
 
-st.title("🏍️ Fleet Intelligence & Analytics Platform")
+st.title("⚡🏍️ Electric Vehicle Fleet Intelligence Platform")
 st.caption(
     "Upload your fleet's raw 5-minute telematics stream (CSV or XLSX) and get "
     "cleaned data, rider archetypes, and a trained dormancy/breakdown-risk model -- "
@@ -49,7 +49,7 @@ with st.expander("📋 Required file format", expanded=False):
         "`name`, `serial`, or `bike_id` all work for the ID column):\n\n"
         "| date | time | latitude | longitude | bike_id |\n"
         "|---|---|---|---|---|\n"
-        "| 2024/09/30 | 22:05 | -1.488147 | 36.971527 | LGMMWSAB8P0A00708 |\n\n"
+        "| 2026/09/25 | 22:05 | -1.388147 | 37.678901 | ANONBIKE-40153DD97173EF52 |\n\n"
         "One row per GPS ping. Works best with several weeks of history across "
         "multiple vehicles -- the archetype and risk models need a real fleet "
         "to train on, not just one bike."
