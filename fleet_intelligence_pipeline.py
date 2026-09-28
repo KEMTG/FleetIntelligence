@@ -10,7 +10,7 @@ USAGE
     python fleet_intelligence_pipeline.py --input data.csv
 
     # Full fleet run + a detailed single-bike demo report/plot
-    python fleet_intelligence_pipeline.py --input data.csv --bike LGMMWSAB2P0A00185
+    python fleet_intelligence_pipeline.py --input data.csv --bike ANONY12345678
 
     # Excel input works the same way
     python fleet_intelligence_pipeline.py --input fleet_data.xlsx
